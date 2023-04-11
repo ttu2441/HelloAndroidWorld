@@ -1,0 +1,15 @@
+<resources>
+    <!--The string for holding app name called HelloAndroid-->
+    <string name="app_name">HelloAndroid</string>
+    <!--Example placeholder for a special Unicode symbol-->
+    <string name="star_rating">Check out our 5
+        <xliff:g id="star">\u2605</xliff:g>
+    </string>
+    <!--Example placeholder for a URL-->
+    <string name="app_homeurl">Visit us at <xliff:g
+    id="application_homepage">http://my/app/home.html</xliff:g>
+    </string>
+    <!--Example placeholder for a name-->
+    <string name="prod_name">Learn more at <xliff:g="prod_gamegroup">
+    Game Group</xliff:g></string>
+</resources>
