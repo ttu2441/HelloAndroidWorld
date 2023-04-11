@@ -4,7 +4,8 @@
 
     <!--Beware that these values are overridden by the build.gradle file-->
     <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="26" />
-
+    <!--The android applications in main Kotlin activity such as allowBackup,dataExtractionRules,fullBackupContent,
+    icon,label,supportsRtl,theme,and targetApi-->
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -17,6 +18,7 @@
 
     <!--This name is resolved to com.example.myapp.MainActivity based on the namespace
     property in the build.gradle file-->
+    <!--The main Kotlin activity using android action and launcher-->
         <activity
             android:name=".MainActivity"
             android:exported="true">
